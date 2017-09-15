@@ -1,0 +1,30 @@
+{
+  "name": "termux",
+  "version": "1.0.0",
+  "description": "Node module for Termux-API",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roccomuso/termux.git"
+  },
+  "keywords": [
+    "termux",
+    "api",
+    "android",
+    "wrapper",
+    "node"
+  ],
+  "author": "Rocco Musolino (roccomuso)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roccomuso/termux/issues"
+  },
+  "homepage": "https://github.com/roccomuso/termux#readme",
+  "dependencies": {
+    "debug": "^3.0.1",
+    "execa": "^0.8.0"
+  }
+}
