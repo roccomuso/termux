@@ -7,3 +7,5 @@ execa.shell('termux-battery-status').then(function (result) {
 }).catch(function (error) {
   console.log(error)
 })
+
+modulex.exports = api
