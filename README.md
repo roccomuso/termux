@@ -4,11 +4,13 @@
 [![Dependency Status](https://david-dm.org/roccomuso/termux.png)](https://david-dm.org/roccomuso/termux)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-> Node.js module for [Termux-API](https://termux.com/add-on-api.html)
+> Comprehensive Node.js module for [Termux-API](https://termux.com/add-on-api.html)
 
 ## Install
 
-Make sure you've first installed the termux-api on your Android device.
+1. Make sure you've first installed the [termux-api](https://play.google.com/store/apps/details?id=com.termux.api) on your Android device from the Play store.
+2. Then install the scripts with `apt install termux-api`.
+3. Finally get this node module:
 
     $ npm install --save termux
 
@@ -19,12 +21,12 @@ Make sure you've first installed the termux-api on your Android device.
 const api = require('termux')
 
 api.vibrate()
-   .setDuration(1000)
+   .duration(1000)
    .run()
 
 api.toast()
-   .setText('Hello world')
-   .shortDuration()
+   .text('Hello world')
+   .transient()
    .run()
 ```
 
@@ -32,9 +34,15 @@ api.toast()
 
 | Method | Description | Parameters |
 |--------|-------------|-----------|
-| `.toast()` | Show a toast message | `.setDuration(ms)` |
-| |  | `.shortDuration()` |
-| `.vibrate()` | Vibrate your phone | `.shortDuration()` |
+| `.toast()` | Show a toast message | `.text(<string>)` |
+| |  | `.transient()` |
+| `.vibrate()` | Vibrate your phone | `.duration(<ms>)` |
+| |  | `.force()` |
+
+
+## Other module
+
+Check out also the [has-termux-api](https://github.com/roccomuso/has-termux-api) node module.
 
 ## Debug
 
