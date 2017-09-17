@@ -20,6 +20,8 @@
 // todo
 const api = require('termux')
 
+if (!api.hasTermux) process.exit(1)
+
 api.vibrate()
    .duration(1000)
    .run()
@@ -40,9 +42,9 @@ api.toast()
 | |  | `.force()` |
 
 
-## Other module
+## Dependency
 
-Check out also the [has-termux-api](https://github.com/roccomuso/has-termux-api) node module.
+It uses [has-termux-api](https://github.com/roccomuso/has-termux-api) to check if termux-api is installed.
 
 ## Debug
 
