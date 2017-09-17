@@ -25,6 +25,8 @@
   "homepage": "https://github.com/roccomuso/termux#readme",
   "dependencies": {
     "debug": "^3.0.1",
-    "execa": "^0.8.0"
+    "execa": "^0.8.0",
+    "glob": "^7.1.2",
+    "has-termux-api": "^1.0.0"
   }
 }
