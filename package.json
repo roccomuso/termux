@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/roccomuso/termux#readme",
   "dependencies": {
+    "dargs": "^5.1.0",
     "debug": "^3.0.1",
     "execa": "^0.8.0",
     "glob": "^7.1.2",
