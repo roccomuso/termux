@@ -81,7 +81,7 @@ Every command instance has the `.run()` method that must be used to execute the 
 | | title to use for shared content (default: shared file name) | `.title(<str>)` |
 | `.smsInbox()` | List received SMS messages | |
 | | show dates when messages were created | `.date()` |
-| | offset in sms list (default: 10) | `.limit(<int>)` |
+| | limit in sms list (default: 10) | `.limit(<int>)` |
 | | show phone numbers | `.showNumbers()` |
 | | offset in sms list (default: 0) | `.offset(<int>)` |
 | `.smsSend()` | Send a SMS message to the specified recipient number(s) | |
