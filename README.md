@@ -17,7 +17,6 @@
 ## Example usage
 
 ```javascript
-// todo
 const api = require('termux')
 
 if (!api.hasTermux) process.exit(1)
@@ -34,6 +33,8 @@ api.clipboardGet()
 ```
 
 ## Available methods
+
+Every command instance has the `.run()` method that must be used to execute the command. It always return a Promise (eventually with results).
 
 | Method | Description | Parameters |
 |--------|-------------|-----------|
@@ -97,7 +98,6 @@ api.clipboardGet()
 | | speech rate to use (1.0 is normal) | `.rate(<num>)` |
 | | audio stream to use (ALARM/MUSIC/NOTIFICATION/RING/SYSTEM/VOICE_CALL) | `.stream(<enum>)` |
 
-The `.run()` method always return a promise (eventually with results).
 
 ## Dependency
 
