@@ -48,6 +48,7 @@ Every command instance has the `.run()` method that must be used to execute the 
 | `.cameraInfo()` | Get info about device camera(s) | |
 | `.cameraPhoto()` | Take a photo and save it to a file (JPEG format) | |
 | | select the camera by ID | `.camera(<id>)` |
+| | output photo file | `.outputFile(<str>)` |
 | `.clipboardGet()` | Get the system clipboard text | |
 | `.clipboardSet()` | Set the system clipboard text | |
 | | text to copy in clipboard | `.text(<str>)` |
