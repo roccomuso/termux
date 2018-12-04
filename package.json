@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/roccomuso/termux#readme",
   "dependencies": {
-    "dargs": "^5.1.0",
-    "debug": "^3.1.0",
-    "execa": "^0.8.0",
-    "glob": "^7.1.2",
+    "dargs": "^6.0.0",
+    "debug": "^4.1.0",
+    "execa": "^1.0.0",
+    "glob": "^7.1.3",
     "has-termux-api": "^1.0.0"
   }
 }
