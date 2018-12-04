@@ -4,7 +4,7 @@
 [![Dependency Status](https://david-dm.org/roccomuso/termux.png)](https://david-dm.org/roccomuso/termux)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-> Comprehensive Node.js module for [Termux-API](https://termux.com/add-on-api.html)
+> Comprehensive Node.js module for [Termux-API](https://wiki.termux.com/wiki/Termux:API)
 
 ## Install
 
