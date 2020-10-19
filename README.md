@@ -80,7 +80,7 @@ Every command instance has the `.run()` method that must be used to execute the 
 | | notification action when clicking on button3 | `.button3(<str>, <str>)` |
 | | notification action when tapping on it | `.tap(<str>)` |
 | | notification action when deleting it | `.delete(<str>)` |
-| | notification image to show | `.image(<str>)` |
+| | notification image to show | `.image(<path>)` |
 | | makes notification unremovable, need .id  | `.pin()` |
 | `.share()` | share a file specified as argument | |
 | | provide a file to share | `.file(<path>)` |
