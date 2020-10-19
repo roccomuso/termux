@@ -32,9 +32,6 @@ api.clipboardGet()
    })
 ```
 
-## Available methods
-
-Every command instance has the `.run()` method that must be used to execute the command. It always return a Promise (eventually with results).
 
 | Method | Description | Parameters |
 |--------|-------------|-----------|
@@ -74,6 +71,13 @@ Every command instance has the `.run()` method that must be used to execute the 
 | | notification id (will overwrite any previous notification with the same id)| `.id(<int>)` |
 | | notification title to show | `.title(<str>)` |
 | | notification url when clicking on it | `.url(<str>)` |
+| | notification action when clicking on button1 | `.button1(<str>, <str>)` |
+| | notification action when clicking on button2 | `.button2(<str>, <str>)` |
+| | notification action when clicking on button3 | `.button3(<str>, <str>)` |
+| | notification action when tapping on it | `.tap(<str>)` |
+| | notification action when deleting it | `.delete(<str>)` |
+| | notification image to show | `.image(<str>)` |
+| | makes notification unremovable, need .id  | `.pin()` |
 | `.share()` | share a file specified as argument | |
 | | provide a file to share | `.file(<path>)` |
 | | which action to perform on the file (edit/send/view) | `.action(<enum>)` |
