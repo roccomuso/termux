@@ -32,6 +32,10 @@ api.clipboardGet()
    })
 ```
 
+## Available methods
+
+Every command instance has the `.run()` method that must be used to execute the command. It always return a Promise (eventually with results).
+
 
 | Method | Description | Parameters |
 |--------|-------------|-----------|
