@@ -12,7 +12,9 @@
 2. Then install the scripts with `apt install termux-api`.
 3. Finally get this node module:
 
-    $ `npm install --save termux`
+    $ `yarn add termux`
+
+    (or, if you prefer npm: `npm install --save termux`)
 
 ## Example usage
 
